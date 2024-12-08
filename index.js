@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
-
 import { mongoConnect } from './services/mongoose.js';
+
 mongoConnect();
 
 import dotenv from "dotenv";
